@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, main, footer {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 5rem;
+}
+#problem .expression {
+  font-size: 48px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: 0 40px;
+}
+
+#problem .final-screen {
+  background-color: rgb(219, 139, 166);
+  border: 5px solid black;
+  border-radius: 15px;
+  font-family: 'Bangers';
+  font-size: 4rem;
+}
+
+
+#answers ul {
+  margin: 0;
+  padding: 0;
+  margin: 40px auto;
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+#answers li {
+  margin: 0 20px;
+  padding: 20px 30px;
+  cursor: pointer;
+  background-color: #708edf;
+  border: solid black;
+  border-width: 3px;
+  border-radius: 15px;
+  color: white;
+  font-style: bolder;
+  font-size: x-large;
+  transition: all .2s ease-in-out;
+}
+
+#answers li:hover {
+  transform: scale(1.1);
+}
+
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #83ad5f;
+  color: white;
+  text-transform: uppercase;
+  border: solid black;
+  border-width: 3px;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display:none;
+}
